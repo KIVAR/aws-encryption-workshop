@@ -9,11 +9,11 @@ Parameters:
   CloudFrontCName: 
     Type: String 
     Description: "CloudFront CNames" 
-    Default: "www.encryptaws.com" 
+    Default: "www.paulduvall.io" 
   HostedZoneId: 
     Type: String 
     Description: "Hosted Zone Id" 
-    Default: "ZLND5TXS03SWZ" 
+    Default: "ZOGUXKNLA0511" 
 Resources: 
   CloudFrontOriginAccessIdentity: 
     Type: "AWS::CloudFront::CloudFrontOriginAccessIdentity" 
